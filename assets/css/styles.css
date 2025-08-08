@@ -125,7 +125,7 @@ button:active {
     align-items: center;
     gap: var(--spacing-md);
     width: 100%;
-    margin-top: 4rem;
+    margin-top: 2.5rem;
     padding: 0px 16px;
 }
 
@@ -548,7 +548,7 @@ button:active {
     }
 
     .hero__profile-image {
-        width: 500px;
+        width: 420px;
         height: 500px;
         transform: translateX(0px) !important;
     }
@@ -570,7 +570,7 @@ button:active {
     }
 
     .hero__info {
-        margin-top: 2rem;
+        margin-top: 0rem;
     }
     
     .hero__profile-image {
