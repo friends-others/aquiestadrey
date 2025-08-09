@@ -1,0 +1,965 @@
+/* ===== QUICKSAND FONT IMPORTS ===== */
+
+/* Quicksand Variable Font (Más eficiente) */
+@font-face {
+    font-family: 'Quicksand';
+    src: url('../fonts/Quicksand/Quicksand/Quicksand-VariableFont_wght.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 300 700;
+    font-display: swap;
+}
+
+/* Quicksand Static Fonts */
+@font-face {
+    font-family: 'Quicksand';
+    src: url('../fonts/Quicksand/Quicksand/static/Quicksand-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Quicksand';
+    src: url('../fonts/Quicksand/Quicksand/static/Quicksand-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Quicksand';
+    src: url('../fonts/Quicksand/Quicksand/static/Quicksand-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Quicksand';
+    src: url('../fonts/Quicksand/Quicksand/static/Quicksand-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Quicksand';
+    src: url('../fonts/Quicksand/Quicksand/static/Quicksand-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* ===== CORMORANT GARAMOND FONT IMPORTS ===== */
+
+/* Cormorant Garamond Variable Fonts (Más eficientes) */
+@font-face {
+    font-family: 'Cormorant Garamond';
+    src: url('../fonts/Cormorant_Garamond/CormorantGaramond-VariableFont_wght.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 300 700;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cormorant Garamond';
+    src: url('../fonts/Cormorant_Garamond/CormorantGaramond-Italic-VariableFont_wght.ttf') format('truetype');
+    font-style: italic;
+    font-weight: 300 700;
+    font-display: swap;
+}
+
+/* Cormorant Garamond Static Fonts */
+@font-face {
+    font-family: 'Cormorant Garamond';
+    src: url('../fonts/Cormorant_Garamond/static/CormorantGaramond-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cormorant Garamond';
+    src: url('../fonts/Cormorant_Garamond/static/CormorantGaramond-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cormorant Garamond';
+    src: url('../fonts/Cormorant_Garamond/static/CormorantGaramond-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cormorant Garamond';
+    src: url('../fonts/Cormorant_Garamond/static/CormorantGaramond-Italic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cormorant Garamond';
+    src: url('../fonts/Cormorant_Garamond/static/CormorantGaramond-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cormorant Garamond';
+    src: url('../fonts/Cormorant_Garamond/static/CormorantGaramond-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cormorant Garamond';
+    src: url('../fonts/Cormorant_Garamond/static/CormorantGaramond-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cormorant Garamond';
+    src: url('../fonts/Cormorant_Garamond/static/CormorantGaramond-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cormorant Garamond';
+    src: url('../fonts/Cormorant_Garamond/static/CormorantGaramond-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cormorant Garamond';
+    src: url('../fonts/Cormorant_Garamond/static/CormorantGaramond-BoldItalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+}
+
+/* ===== CINZEL FONT IMPORTS ===== */
+
+/* Cinzel Variable Font (Más eficiente) */
+@font-face {
+    font-family: 'Cinzel';
+    src: url('../fonts/Cinzel/Cinzel-VariableFont_wght.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 400 900;
+    font-display: swap;
+}
+
+/* Cinzel Static Fonts */
+@font-face {
+    font-family: 'Cinzel';
+    src: url('../fonts/Cinzel/static/Cinzel-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cinzel';
+    src: url('../fonts/Cinzel/static/Cinzel-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cinzel';
+    src: url('../fonts/Cinzel/static/Cinzel-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cinzel';
+    src: url('../fonts/Cinzel/static/Cinzel-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cinzel';
+    src: url('../fonts/Cinzel/static/Cinzel-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cinzel';
+    src: url('../fonts/Cinzel/static/Cinzel-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* ===== NOTO SERIF FONT IMPORTS ===== */
+
+/* Noto Serif Variable Fonts (Más eficientes) */
+@font-face {
+    font-family: 'Noto Serif';
+    src: url('../fonts/Noto_Serif/NotoSerif-VariableFont_wdth,wght.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 100 900;
+    font-stretch: 62.5% 100%;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Serif';
+    src: url('../fonts/Noto_Serif/NotoSerif-Italic-VariableFont_wdth,wght.ttf') format('truetype');
+    font-style: italic;
+    font-weight: 100 900;
+    font-stretch: 62.5% 100%;
+    font-display: swap;
+}
+
+/* Noto Serif Static Fonts - Regular */
+@font-face {
+    font-family: 'Noto Serif';
+    src: url('../fonts/Noto_Serif/static/NotoSerif-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Serif';
+    src: url('../fonts/Noto_Serif/static/NotoSerif-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Serif';
+    src: url('../fonts/Noto_Serif/static/NotoSerif-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Serif';
+    src: url('../fonts/Noto_Serif/static/NotoSerif-ExtraLightItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Serif';
+    src: url('../fonts/Noto_Serif/static/NotoSerif-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Serif';
+    src: url('../fonts/Noto_Serif/static/NotoSerif-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Serif';
+    src: url('../fonts/Noto_Serif/static/NotoSerif-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Serif';
+    src: url('../fonts/Noto_Serif/static/NotoSerif-Italic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Serif';
+    src: url('../fonts/Noto_Serif/static/NotoSerif-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Serif';
+    src: url('../fonts/Noto_Serif/static/NotoSerif-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Serif';
+    src: url('../fonts/Noto_Serif/static/NotoSerif-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Serif';
+    src: url('../fonts/Noto_Serif/static/NotoSerif-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Serif';
+    src: url('../fonts/Noto_Serif/static/NotoSerif-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Serif';
+    src: url('../fonts/Noto_Serif/static/NotoSerif-BoldItalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Serif';
+    src: url('../fonts/Noto_Serif/static/NotoSerif-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Serif';
+    src: url('../fonts/Noto_Serif/static/NotoSerif-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Serif';
+    src: url('../fonts/Noto_Serif/static/NotoSerif-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Serif';
+    src: url('../fonts/Noto_Serif/static/NotoSerif-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+/* Noto Serif SemiCondensed */
+@font-face {
+    font-family: 'Noto Serif SemiCondensed';
+    src: url('../fonts/Noto_Serif/static/NotoSerif_SemiCondensed-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Serif SemiCondensed';
+    src: url('../fonts/Noto_Serif/static/NotoSerif_SemiCondensed-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Serif SemiCondensed';
+    src: url('../fonts/Noto_Serif/static/NotoSerif_SemiCondensed-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Serif SemiCondensed';
+    src: url('../fonts/Noto_Serif/static/NotoSerif_SemiCondensed-ExtraLightItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Serif SemiCondensed';
+    src: url('../fonts/Noto_Serif/static/NotoSerif_SemiCondensed-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Serif SemiCondensed';
+    src: url('../fonts/Noto_Serif/static/NotoSerif_SemiCondensed-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Serif SemiCondensed';
+    src: url('../fonts/Noto_Serif/static/NotoSerif_SemiCondensed-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Serif SemiCondensed';
+    src: url('../fonts/Noto_Serif/static/NotoSerif_SemiCondensed-Italic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Serif SemiCondensed';
+    src: url('../fonts/Noto_Serif/static/NotoSerif_SemiCondensed-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Serif SemiCondensed';
+    src: url('../fonts/Noto_Serif/static/NotoSerif_SemiCondensed-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Serif SemiCondensed';
+    src: url('../fonts/Noto_Serif/static/NotoSerif_SemiCondensed-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Serif SemiCondensed';
+    src: url('../fonts/Noto_Serif/static/NotoSerif_SemiCondensed-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Serif SemiCondensed';
+    src: url('../fonts/Noto_Serif/static/NotoSerif_SemiCondensed-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Serif SemiCondensed';
+    src: url('../fonts/Noto_Serif/static/NotoSerif_SemiCondensed-BoldItalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Serif SemiCondensed';
+    src: url('../fonts/Noto_Serif/static/NotoSerif_SemiCondensed-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Serif SemiCondensed';
+    src: url('../fonts/Noto_Serif/static/NotoSerif_SemiCondensed-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Serif SemiCondensed';
+    src: url('../fonts/Noto_Serif/static/NotoSerif_SemiCondensed-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Serif SemiCondensed';
+    src: url('../fonts/Noto_Serif/static/NotoSerif_SemiCondensed-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+/* Noto Serif Condensed */
+@font-face {
+    font-family: 'Noto Serif Condensed';
+    src: url('../fonts/Noto_Serif/static/NotoSerif_Condensed-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Serif Condensed';
+    src: url('../fonts/Noto_Serif/static/NotoSerif_Condensed-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Serif Condensed';
+    src: url('../fonts/Noto_Serif/static/NotoSerif_Condensed-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Serif Condensed';
+    src: url('../fonts/Noto_Serif/static/NotoSerif_Condensed-ExtraLightItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Serif Condensed';
+    src: url('../fonts/Noto_Serif/static/NotoSerif_Condensed-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Serif Condensed';
+    src: url('../fonts/Noto_Serif/static/NotoSerif_Condensed-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Serif Condensed';
+    src: url('../fonts/Noto_Serif/static/NotoSerif_Condensed-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Serif Condensed';
+    src: url('../fonts/Noto_Serif/static/NotoSerif_Condensed-Italic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Serif Condensed';
+    src: url('../fonts/Noto_Serif/static/NotoSerif_Condensed-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Serif Condensed';
+    src: url('../fonts/Noto_Serif/static/NotoSerif_Condensed-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Serif Condensed';
+    src: url('../fonts/Noto_Serif/static/NotoSerif_Condensed-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Serif Condensed';
+    src: url('../fonts/Noto_Serif/static/NotoSerif_Condensed-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Serif Condensed';
+    src: url('../fonts/Noto_Serif/static/NotoSerif_Condensed-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Serif Condensed';
+    src: url('../fonts/Noto_Serif/static/NotoSerif_Condensed-BoldItalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Serif Condensed';
+    src: url('../fonts/Noto_Serif/static/NotoSerif_Condensed-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Serif Condensed';
+    src: url('../fonts/Noto_Serif/static/NotoSerif_Condensed-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Serif Condensed';
+    src: url('../fonts/Noto_Serif/static/NotoSerif_Condensed-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Serif Condensed';
+    src: url('../fonts/Noto_Serif/static/NotoSerif_Condensed-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+/* Noto Serif ExtraCondensed */
+@font-face {
+    font-family: 'Noto Serif ExtraCondensed';
+    src: url('../fonts/Noto_Serif/static/NotoSerif_ExtraCondensed-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Serif ExtraCondensed';
+    src: url('../fonts/Noto_Serif/static/NotoSerif_ExtraCondensed-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Serif ExtraCondensed';
+    src: url('../fonts/Noto_Serif/static/NotoSerif_ExtraCondensed-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Serif ExtraCondensed';
+    src: url('../fonts/Noto_Serif/static/NotoSerif_ExtraCondensed-ExtraLightItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Serif ExtraCondensed';
+    src: url('../fonts/Noto_Serif/static/NotoSerif_ExtraCondensed-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Serif ExtraCondensed';
+    src: url('../fonts/Noto_Serif/static/NotoSerif_ExtraCondensed-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Serif ExtraCondensed';
+    src: url('../fonts/Noto_Serif/static/NotoSerif_ExtraCondensed-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Serif ExtraCondensed';
+    src: url('../fonts/Noto_Serif/static/NotoSerif_ExtraCondensed-Italic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Serif ExtraCondensed';
+    src: url('../fonts/Noto_Serif/static/NotoSerif_ExtraCondensed-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Serif ExtraCondensed';
+    src: url('../fonts/Noto_Serif/static/NotoSerif_ExtraCondensed-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Serif ExtraCondensed';
+    src: url('../fonts/Noto_Serif/static/NotoSerif_ExtraCondensed-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Serif ExtraCondensed';
+    src: url('../fonts/Noto_Serif/static/NotoSerif_ExtraCondensed-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Serif ExtraCondensed';
+    src: url('../fonts/Noto_Serif/static/NotoSerif_ExtraCondensed-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Serif ExtraCondensed';
+    src: url('../fonts/Noto_Serif/static/NotoSerif_ExtraCondensed-BoldItalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Serif ExtraCondensed';
+    src: url('../fonts/Noto_Serif/static/NotoSerif_ExtraCondensed-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Serif ExtraCondensed';
+    src: url('../fonts/Noto_Serif/static/NotoSerif_ExtraCondensed-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Serif ExtraCondensed';
+    src: url('../fonts/Noto_Serif/static/NotoSerif_ExtraCondensed-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Serif ExtraCondensed';
+    src: url('../fonts/Noto_Serif/static/NotoSerif_ExtraCondensed-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+/* ===== FONT USAGE GUIDE ===== */
+
+/*
+FUENTES QUICKSAND DISPONIBLES:
+
+1. FUENTE VARIABLE (Más eficiente - incluye todos los pesos):
+   - 'Quicksand' (solo normal, no hay itálica)
+   - Soporta font-weight: 300-700
+   - Fuente sans-serif moderna y legible
+
+2. FUENTES ESTÁTICAS:
+   - 'Quicksand' con font-weight específicos:
+     * 300 (Light), 400 (Regular), 500 (Medium)
+     * 600 (SemiBold), 700 (Bold)
+   - Solo estilo normal (sin itálica)
+
+FUENTES CORMORANT GARAMOND DISPONIBLES:
+
+1. FUENTES VARIABLES (Más eficientes - incluyen todos los pesos):
+   - 'Cormorant Garamond' (normal e itálica)
+   - Soporta font-weight: 300-700
+   - Fuente serif elegante, ideal para títulos y textos clásicos
+
+2. FUENTES ESTÁTICAS:
+   - 'Cormorant Garamond' con font-weight específicos:
+     * 300 (Light), 400 (Regular), 500 (Medium)
+     * 600 (SemiBold), 700 (Bold)
+   - Cada peso disponible en normal e itálica
+   - Excelente legibilidad y estilo clásico
+
+FUENTES CINZEL DISPONIBLES:
+
+1. FUENTE VARIABLE (Más eficiente - incluye todos los pesos):
+   - 'Cinzel' (solo normal, no hay itálica)
+   - Soporta font-weight: 400-900
+   - Fuente serif display inspirada en inscripciones romanas clásicas
+
+2. FUENTES ESTÁTICAS:
+   - 'Cinzel' con font-weight específicos:
+     * 400 (Regular), 500 (Medium), 600 (SemiBold)
+     * 700 (Bold), 800 (ExtraBold), 900 (Black)
+   - Solo estilo normal (sin itálica)
+   - Ideal para títulos, encabezados y elementos destacados
+
+FUENTES NOTO SERIF DISPONIBLES:
+
+1. FUENTES VARIABLES (Más eficientes - incluyen todos los pesos):
+   - 'Noto Serif' (normal e itálica)
+   - Soporta font-weight: 100-900
+   - Soporta font-stretch: 62.5%-100%
+
+2. FUENTES ESTÁTICAS REGULARES:
+   - 'Noto Serif' con font-weight específicos:
+     * 100 (Thin), 200 (ExtraLight), 300 (Light)
+     * 400 (Regular), 500 (Medium), 600 (SemiBold)
+     * 700 (Bold), 800 (ExtraBold), 900 (Black)
+   - Cada peso disponible en normal e itálica
+
+3. FUENTES SEMICONDENSADAS:
+   - 'Noto Serif SemiCondensed'
+   - Mismos pesos que la regular (100-900)
+   - Normal e itálica
+
+4. FUENTES CONDENSADAS:
+   - 'Noto Serif Condensed'
+   - Mismos pesos que la regular (100-900)
+   - Normal e itálica
+
+5. FUENTES EXTRA CONDENSADAS:
+   - 'Noto Serif ExtraCondensed'
+   - Mismos pesos que la regular (100-900)
+   - Normal e itálica
+
+VARIABLES CSS DISPONIBLES EN STYLES.CSS:
+- var(--font-primary): 'Cormorant Garamond', 'Quicksand', 'Noto Serif', 'Playfair Display', serif
+- var(--font-secondary): 'Cormorant Garamond', 'Quicksand', 'Noto Serif', 'Poppins', sans-serif
+- var(--font-quicksand): 'Quicksand', sans-serif
+- var(--font-cormorant-garamond): 'Cormorant Garamond', serif
+- var(--font-cinzel): 'Cinzel', serif
+- var(--font-noto-serif): 'Noto Serif', serif
+- var(--font-noto-serif-semicondensed): 'Noto Serif SemiCondensed', serif
+- var(--font-noto-serif-condensed): 'Noto Serif Condensed', serif
+- var(--font-noto-serif-extracondensed): 'Noto Serif ExtraCondensed', serif
+
+EJEMPLOS DE USO:
+
+/* Usar Quicksand como fuente sans-serif moderna */
+.ejemplo-quicksand {
+    font-family: var(--font-quicksand);
+    font-weight: 500; /* Medium */
+}
+
+/* Usar variable CSS secundaria que incluye Quicksand */
+.ejemplo-secondary {
+    font-family: var(--font-secondary);
+    font-weight: 400; /* Regular */
+}
+
+/* Usar Cormorant Garamond para títulos elegantes */
+.ejemplo-cormorant {
+    font-family: var(--font-cormorant-garamond);
+    font-weight: 500; /* Medium */
+    font-style: italic; /* Excelente para énfasis */
+}
+
+/* Usar variable CSS primaria (incluye Cormorant Garamond primero) */
+.ejemplo-primary {
+    font-family: var(--font-primary);
+    font-weight: 600; /* SemiBold */
+}
+
+/* Usar Cinzel para títulos impactantes y display */
+.ejemplo-cinzel {
+    font-family: var(--font-cinzel);
+    font-weight: 700; /* Bold */
+    text-transform: uppercase; /* Recomendado para Cinzel */
+}
+
+/* Usar Cinzel variable con peso personalizado */
+.ejemplo-cinzel-display {
+    font-family: 'Cinzel';
+    font-weight: 850; /* Peso intermedio entre ExtraBold y Black */
+    letter-spacing: 0.1em; /* Espaciado para mejor legibilidad */
+}
+
+/* Usar la fuente regular con peso específico */
+.ejemplo1 {
+    font-family: var(--font-noto-serif);
+    font-weight: 400; /* Regular */
+}
+
+/* Usar la fuente condensada */
+.ejemplo2 {
+    font-family: var(--font-noto-serif-condensed);
+    font-weight: 700; /* Bold */
+}
+
+/* Usar la fuente variable con peso personalizado */
+.ejemplo3 {
+    font-family: 'Noto Serif';
+    font-weight: 350; /* Peso intermedio */
+    font-style: italic;
+}
+
+/* Usar diferentes anchos */
+.ejemplo4 {
+    font-family: 'Noto Serif';
+    font-stretch: 75%; /* Solo funciona con fuentes variables */
+}
+
+/* NOTA: Las fuentes variables ofrecen mejor rendimiento y flexibilidad.
+Para máxima compatibilidad, usa las fuentes estáticas con pesos específicos. */

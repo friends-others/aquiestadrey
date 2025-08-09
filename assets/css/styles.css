@@ -1,3 +1,6 @@
+/* ===== FONT IMPORTS ===== */
+@import url('fonts.css');
+
 /* ===== RESET Y BASE ===== */
 * {
     margin: 0;
@@ -39,6 +42,7 @@ button:active {
     box-shadow: none !important;
     -webkit-tap-highlight-color: transparent;
     -webkit-focus-ring-color: transparent;
+    outline-style: none;
     -moz-outline-style: none;
 }
 
@@ -51,8 +55,25 @@ button:active {
     --text-color: #906A3D;
     
     /* Typography */
-    --font-primary: 'Playfair Display', serif;
-    --font-secondary: 'Poppins', sans-serif;
+    /* --font-primary: 'Playfair Display', serif;
+    --font-secondary: 'Poppins', sans-serif; */
+    --font-primary: 'Cormorant Garamond', 'Quicksand', 'Noto Serif', 'Playfair Display', serif;
+    --font-secondary: 'Cormorant Garamond', 'Quicksand', 'Noto Serif', 'Poppins', sans-serif;
+    
+    /* Noto Serif Font Variants */
+    --font-noto-serif: 'Noto Serif', serif;
+    --font-noto-serif-semicondensed: 'Noto Serif SemiCondensed', serif;
+    --font-noto-serif-condensed: 'Noto Serif Condensed', serif;
+    --font-noto-serif-extracondensed: 'Noto Serif ExtraCondensed', serif;
+    
+    /* Quicksand Font Variants */
+    --font-quicksand: 'Quicksand', sans-serif;
+    
+    /* Cormorant Garamond Font Variants */
+    --font-cormorant-garamond: 'Cormorant Garamond', serif;
+    
+    /* Cinzel Font Variants */
+    --font-cinzel: 'Cinzel', serif;
     
     /* Font Sizes Mobile */
     --fs-hero-name: 2.5rem;
@@ -130,7 +151,7 @@ button:active {
 }
 
 .hero__name {
-    font-family: var(--font-primary);
+    font-family: var(--font-cinzel);
     font-size: var(--fs-hero-name);
     font-weight: 400;
     color: var(--secondary-color);
@@ -139,7 +160,7 @@ button:active {
 }
 
 .hero__title {
-    font-family: var(--font-primary);
+    font-family: var(--font-cormorant-garamond);
     font-size: var(--fs-hero-title);
     font-weight: 400;
     color: var(--primary-color);
@@ -158,7 +179,7 @@ button:active {
     display: flex;
     align-items: center;
     gap: var(--spacing-xs);
-    font-family: var(--font-secondary);
+    font-family: var(--font-quicksand);
     font-size: var(--fs-contact);
     color: var(--primary-color);
 }
@@ -220,7 +241,7 @@ button:active {
 }
 
 .about__title {
-    font-family: var(--font-primary);
+    font-family: var(--font-quicksand);
     font-size: var(--fs-section-title);
     font-weight: 400;
     color: var(--primary-color);
@@ -229,7 +250,7 @@ button:active {
 }
 
 .about__text {
-    font-family: var(--font-secondary);
+    font-family: var(--font-cormorant-garamond);
     font-size: var(--fs-text);
     line-height: 1.8;
     color: var(--primary-color);
@@ -253,7 +274,7 @@ button:active {
 }
 
 .about-me__title {
-    font-family: var(--font-primary);
+    font-family: var(--font-quicksand);
     font-size: var(--fs-section-title);
     font-weight: 400;
     color: var(--primary-color);
@@ -262,7 +283,7 @@ button:active {
 }
 
 .about-me__text {
-    font-family: var(--font-secondary);
+    font-family: var(--font-cormorant-garamond);
     font-size: var(--fs-text);
     line-height: 1.8;
     color: var(--primary-color);
@@ -457,10 +478,10 @@ button:active {
 }
 
 .contact__email {
-    font-family: var(--font-secondary);
+    font-family: var(--font-quicksand);
     font-size: var(--fs-contact);
     color: var(--primary-color);
-    font-weight: 500;
+    font-weight: 400;
     padding: var(--spacing-sm) var(--spacing-lg);
     border: 2px solid var(--primary-color);
     border-radius: 25px;
@@ -560,7 +581,7 @@ button:active {
         --fs-hero-name: 5rem;
         --fs-hero-title: 1.8rem;
         --fs-section-title: 3rem;
-        --fs-text: 1.25rem;
+        --fs-text: 1.313rem;;
         --fs-contact: 1.25rem;
         --container-padding: 3rem;
     }
