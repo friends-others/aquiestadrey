@@ -1,7 +1,7 @@
-# 📹 Videos Optimizados
+# 📹 Videos Optimizados (Verticales 9:16)
 
 ## 🎯 **Objetivo**
-Esta carpeta debe contener videos optimizados (20-40MB cada uno) en lugar de los originales pesados (100MB+).
+Esta carpeta debe contener videos optimizados (20-40MB cada uno) en formato vertical 9:16 en lugar de los originales pesados (100MB+).
 
 ## 📁 **Estructura Esperada**
 ```

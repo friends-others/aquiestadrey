@@ -41,12 +41,12 @@ optimize_video() {
         "assets/videos/${output_name}.webm" \
         -y
     
-    # Generar thumbnail
+    # Generar thumbnail (9:16 para videos verticales)
     echo "  🖼️  Generando thumbnail..."
     ffmpeg -i "$input_file" \
         -ss 00:00:03 \
         -vframes 1 \
-        -vf scale=640:360 \
+        -vf scale=360:640 \
         -q:v 2 \
         "assets/images/video-thumbnail-${output_name##*-}.jpg" \
         -y

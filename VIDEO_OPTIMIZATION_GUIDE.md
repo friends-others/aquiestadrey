@@ -1,8 +1,14 @@
 # 🎬 Guía de Optimización de Videos para Portfolio
 
+## 📱 **Configuración para Videos Verticales**
+- **Formato**: Videos verticales 9:16 (Instagram/TikTok style)
+- **Optimización**: Sistema especializado para contenido vertical
+- **Grid responsive**: Más videos por fila para aprovechar el espacio
+
 ## 📊 **Situación Actual**
 - **8 videos** de mínimo **100MB** cada uno
 - **Total**: 800MB+ de contenido de video
+- **Formato**: Videos verticales (9:16)
 - **Problema**: Tiempo de carga excesivo sin optimización
 
 ## 🚀 **Solución Implementada**
@@ -69,11 +75,11 @@ video-1.webm (mejor compresión, navegadores modernos)
 ### **PASO 3: Generar Thumbnails**
 
 ```bash
-# Extraer thumbnail en el segundo 3
-ffmpeg -i video-1.mp4 -ss 00:00:03 -vframes 1 -q:v 2 video-thumbnail-1.jpg
+# Extraer thumbnail en el segundo 3 (9:16 para videos verticales)
+ffmpeg -i video-1.mp4 -ss 00:00:03 -vframes 1 -vf scale=360:640 -q:v 2 video-thumbnail-1.jpg
 
-# Optimizar thumbnail
-ffmpeg -i video-thumbnail-1.jpg -vf scale=320:180 -q:v 85 video-thumbnail-1-optimized.jpg
+# Optimizar thumbnail (mantener proporción 9:16)
+ffmpeg -i video-thumbnail-1.jpg -vf scale=180:320 -q:v 85 video-thumbnail-1-optimized.jpg
 ```
 
 ---
@@ -132,14 +138,15 @@ assets/
 
 ---
 
-## 📱 **Comportamiento Responsivo**
+## 📱 **Comportamiento Responsivo (Videos Verticales 9:16)**
 
-| Dispositivo | Videos por fila | Tamaño thumbnail |
-|-------------|-----------------|------------------|
-| Móvil       | 1               | 180px altura     |
-| Tablet      | 2               | 200px altura     |
-| Desktop     | 3               | 220px altura     |
-| Large       | 4               | 220px altura     |
+| Dispositivo | Videos por fila | Ancho máximo container | Proporción |
+|-------------|-----------------|------------------------|------------|
+| Móvil XS    | 2               | 180px                  | 9:16       |
+| Móvil       | 3               | 200px                  | 9:16       |
+| Tablet      | 4               | 240px                  | 9:16       |
+| Desktop     | 5               | 260px                  | 9:16       |
+| Large       | 6               | 280px                  | 9:16       |
 
 ---
 
