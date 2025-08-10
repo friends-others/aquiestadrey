@@ -59,8 +59,30 @@
                           </clipPath>
                         </defs>
                       </svg>
-                    <img src="assets/images/profile.png" alt="Dreymar - UGC Creator" class="hero__profile-image">
+                    <img src="assets/images/profile_drey.jpg" alt="Dreymar - UGC Creator" class="hero__profile-image">
                 </div>               
+            </div>
+        </section>
+
+        <!-- About Me Section -->
+        <section class="about-me">
+            <div class="about-me__container">
+                <div class="about-me__content">
+                    <div class="about-me__text-column">
+                        <h2 class="about-me__title">¿Por qué YO?</h2>
+                        <p class="about-me__text">
+                            Soy Dreymar, una creadora de contenido radicada en Colombia (@aquiestadrey). Estoy 
+                            apasionada por la moda, la belleza, la decoración y mi vida como mamá. Me encanta 
+                            ser creativa y disfruto crear contenido auténtico y atractivo que impulse a las marcas a conectar 
+                            con su audiencia y alcanzar nuevos niveles.
+                        </p>
+                    </div>
+                    <div class="about-me__image-column">
+                        <div class="about-me__image-container">
+                            <img src="assets/images/por_que_yo_drey.jpg" alt="Dreymar - Creadora de contenido" class="about-me__image">
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -74,21 +96,6 @@
                         sobre productos en lugar de campañas publicitarias altamente seleccionadas. El 
                         contenido UGC ayuda a generar conciencia de marca de una manera más auténtica, que el 
                         contenido generado por las marcas.
-                    </p>
-                </div>
-            </div>
-        </section>
-
-        <!-- About Me Section -->
-        <section class="about-me">
-            <div class="about-me__container">
-                <div class="about-me__content">
-                    <h2 class="about-me__title">¿Por qué YO?</h2>
-                    <p class="about-me__text">
-                        Soy Dreymar, una creadora de contenido radicada en Colombia (@aquiestadrey). Estoy 
-                        apasionada por la moda, la belleza, la decoración y mi vida como mamá. Me encanta 
-                        ser creativa y disfruto crear contenido auténtico y atractivo que impulse a las marcas a conectar 
-                        con su audiencia y alcanzar nuevos niveles.
                     </p>
                 </div>
             </div>
@@ -140,8 +147,182 @@
         <section class="videos">
             <div class="videos__container">
                 <h2 class="videos__title">VIDEOS</h2>
-                <div class="videos__content">
-                    <p class="videos__text">Contenido de videos próximamente...</p>
+                <div class="videos__grid">
+                    <!-- Video 1 - Lazy Loading Optimizado -->
+                    <div class="video-lazy-container" data-video-src="assets/videos/video-1.mp4" data-video-id="1">
+                        <div class="video-thumbnail">
+                            <img src="assets/images/video-thumbnail-1.jpg" alt="Video 1 - Preview" class="video-thumbnail-img">
+                            <div class="video-play-button">
+                                <svg width="64" height="64" viewBox="0 0 24 24" fill="none">
+                                    <circle cx="12" cy="12" r="10" fill="rgba(144, 106, 61, 0.9)"/>
+                                    <polygon points="10,8 16,12 10,16" fill="white"/>
+                                </svg>
+                            </div>
+                            <div class="video-duration">0:10</div>
+                        </div>
+                        <div class="video-loading">
+                            <div class="video-loading-spinner"></div>
+                            <p>Cargando video...</p>
+                        </div>
+                        <div class="video-info">
+                            <h3 class="video-title">Rubor líquido</h3>
+                            <p class="video-description">Descripción del primer video UGC</p>
+                        </div>
+                    </div>
+
+                    <!-- Video 2 -->
+                    <div class="video-lazy-container" data-video-src="assets/videos/video-2.mp4" data-video-id="2">
+                        <div class="video-thumbnail">
+                            <img src="assets/images/video-thumbnail-2.jpg" alt="Video 2 - Preview" class="video-thumbnail-img">
+                            <div class="video-play-button">
+                                <svg width="64" height="64" viewBox="0 0 24 24" fill="none">
+                                    <circle cx="12" cy="12" r="10" fill="rgba(144, 106, 61, 0.9)"/>
+                                    <polygon points="10,8 16,12 10,16" fill="white"/>
+                                </svg>
+                            </div>
+                            <div class="video-duration">1:45</div>
+                        </div>
+                        <div class="video-loading">
+                            <div class="video-loading-spinner"></div>
+                            <p>Cargando video...</p>
+                        </div>
+                        <div class="video-info">
+                            <h3 class="video-title">Video Promocional 2</h3>
+                            <p class="video-description">Descripción del segundo video UGC</p>
+                        </div>
+                    </div>
+
+                    <!-- Video 3 -->
+                    <div class="video-lazy-container" data-video-src="assets/videos/video-3.mp4" data-video-id="3">
+                        <div class="video-thumbnail">
+                            <img src="assets/images/video-thumbnail-3.jpg" alt="Video 3 - Preview" class="video-thumbnail-img">
+                            <div class="video-play-button">
+                                <svg width="64" height="64" viewBox="0 0 24 24" fill="none">
+                                    <circle cx="12" cy="12" r="10" fill="rgba(144, 106, 61, 0.9)"/>
+                                    <polygon points="10,8 16,12 10,16" fill="white"/>
+                                </svg>
+                            </div>
+                            <div class="video-duration">3:15</div>
+                        </div>
+                        <div class="video-loading">
+                            <div class="video-loading-spinner"></div>
+                            <p>Cargando video...</p>
+                        </div>
+                        <div class="video-info">
+                            <h3 class="video-title">Video Promocional 3</h3>
+                            <p class="video-description">Descripción del tercer video UGC</p>
+                        </div>
+                    </div>
+
+                    <!-- Video 4 -->
+                    <div class="video-lazy-container" data-video-src="assets/videos/video-4.mp4" data-video-id="4">
+                        <div class="video-thumbnail">
+                            <img src="assets/images/video-thumbnail-4.jpg" alt="Video 4 - Preview" class="video-thumbnail-img">
+                            <div class="video-play-button">
+                                <svg width="64" height="64" viewBox="0 0 24 24" fill="none">
+                                    <circle cx="12" cy="12" r="10" fill="rgba(144, 106, 61, 0.9)"/>
+                                    <polygon points="10,8 16,12 10,16" fill="white"/>
+                                </svg>
+                            </div>
+                            <div class="video-duration">2:10</div>
+                        </div>
+                        <div class="video-loading">
+                            <div class="video-loading-spinner"></div>
+                            <p>Cargando video...</p>
+                        </div>
+                        <div class="video-info">
+                            <h3 class="video-title">Video Promocional 4</h3>
+                            <p class="video-description">Descripción del cuarto video UGC</p>
+                        </div>
+                    </div>
+
+                    <!-- Video 5 -->
+                    <div class="video-lazy-container" data-video-src="assets/videos/video-5.mp4" data-video-id="5">
+                        <div class="video-thumbnail">
+                            <img src="assets/images/video-thumbnail-5.jpg" alt="Video 5 - Preview" class="video-thumbnail-img">
+                            <div class="video-play-button">
+                                <svg width="64" height="64" viewBox="0 0 24 24" fill="none">
+                                    <circle cx="12" cy="12" r="10" fill="rgba(144, 106, 61, 0.9)"/>
+                                    <polygon points="10,8 16,12 10,16" fill="white"/>
+                                </svg>
+                            </div>
+                            <div class="video-duration">4:20</div>
+                        </div>
+                        <div class="video-loading">
+                            <div class="video-loading-spinner"></div>
+                            <p>Cargando video...</p>
+                        </div>
+                        <div class="video-info">
+                            <h3 class="video-title">Video Promocional 5</h3>
+                            <p class="video-description">Descripción del quinto video UGC</p>
+                        </div>
+                    </div>
+
+                    <!-- Video 6 -->
+                    <div class="video-lazy-container" data-video-src="assets/videos/video-6.mp4" data-video-id="6">
+                        <div class="video-thumbnail">
+                            <img src="assets/images/video-thumbnail-6.jpg" alt="Video 6 - Preview" class="video-thumbnail-img">
+                            <div class="video-play-button">
+                                <svg width="64" height="64" viewBox="0 0 24 24" fill="none">
+                                    <circle cx="12" cy="12" r="10" fill="rgba(144, 106, 61, 0.9)"/>
+                                    <polygon points="10,8 16,12 10,16" fill="white"/>
+                                </svg>
+                            </div>
+                            <div class="video-duration">1:55</div>
+                        </div>
+                        <div class="video-loading">
+                            <div class="video-loading-spinner"></div>
+                            <p>Cargando video...</p>
+                        </div>
+                        <div class="video-info">
+                            <h3 class="video-title">Video Promocional 6</h3>
+                            <p class="video-description">Descripción del sexto video UGC</p>
+                        </div>
+                    </div>
+
+                    <!-- Video 7 -->
+                    <div class="video-lazy-container" data-video-src="assets/videos/video-7.mp4" data-video-id="7">
+                        <div class="video-thumbnail">
+                            <img src="assets/images/video-thumbnail-7.jpg" alt="Video 7 - Preview" class="video-thumbnail-img">
+                            <div class="video-play-button">
+                                <svg width="64" height="64" viewBox="0 0 24 24" fill="none">
+                                    <circle cx="12" cy="12" r="10" fill="rgba(144, 106, 61, 0.9)"/>
+                                    <polygon points="10,8 16,12 10,16" fill="white"/>
+                                </svg>
+                            </div>
+                            <div class="video-duration">3:45</div>
+                        </div>
+                        <div class="video-loading">
+                            <div class="video-loading-spinner"></div>
+                            <p>Cargando video...</p>
+                        </div>
+                        <div class="video-info">
+                            <h3 class="video-title">Video Promocional 7</h3>
+                            <p class="video-description">Descripción del séptimo video UGC</p>
+                        </div>
+                    </div>
+
+                    <!-- Video 8 -->
+                    <div class="video-lazy-container" data-video-src="assets/videos/video-8.mp4" data-video-id="8">
+                        <div class="video-thumbnail">
+                            <img src="assets/images/video-thumbnail-8.jpg" alt="Video 8 - Preview" class="video-thumbnail-img">
+                            <div class="video-play-button">
+                                <svg width="64" height="64" viewBox="0 0 24 24" fill="none">
+                                    <circle cx="12" cy="12" r="10" fill="rgba(144, 106, 61, 0.9)"/>
+                                    <polygon points="10,8 16,12 10,16" fill="white"/>
+                                </svg>
+                            </div>
+                            <div class="video-duration">2:25</div>
+                        </div>
+                        <div class="video-loading">
+                            <div class="video-loading-spinner"></div>
+                            <p>Cargando video...</p>
+                        </div>
+                        <div class="video-info">
+                            <h3 class="video-title">Video Promocional 8</h3>
+                            <p class="video-description">Descripción del octavo video UGC</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -162,9 +343,18 @@
                 <div class="contact__content">
                     <h2 class="contact__title">Trabajemos juntos</h2>
                     <p class="contact__text">
-                        ¡No puedo esperar para trabajar juntos y ser parte del éxito de su marca!
+                        ¡No puedo esperar para trabajar juntos y ser parte del éxito de tu marca!
                     </p>
                     <a href="mailto:dreymarugc@aquiestadrey.com" class="contact__email">dreymarugc@aquiestadrey.com</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Signature Section -->
+        <section class="signature">
+            <div class="signature__container">
+                <div class="signature__content">
+                    <img src="assets/images/firma_dreymar_rebolledo.png" alt="Firma de Dreymar Rebolledo" class="signature__image">
                 </div>
             </div>
         </section>
@@ -173,10 +363,11 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="footer__container">
-            <p class="footer__text">Diseñado por rafaelrivasdev.145@gmail.com</p>
+            <p class="footer__text">Desarrollado por rafaelrivasdev.145@gmail.com</p>
         </div>
     </footer>
 
     <script src="assets/js/script.js"></script>
+    <script src="assets/js/video-optimizer.js"></script>
 </body>
 </html>
