@@ -375,7 +375,7 @@ button:active {
 }
 
 .ugc-gallery__title {
-    font-family: var(--font-primary);
+    font-family: var(--font-cinzel);
     font-size: var(--fs-section-title);
     font-weight: 400;
     color: var(--primary-color);
@@ -420,7 +420,7 @@ button:active {
 }
 
 .videos__title {
-    font-family: var(--font-primary);
+    font-family: var(--font-cinzel);
     font-size: var(--fs-section-title);
     font-weight: 400;
     color: var(--primary-color);
@@ -435,6 +435,7 @@ button:active {
     max-width: 1400px;
     margin: 0 auto;
     justify-items: center;
+    padding: 0 var(--spacing-sm);
 }
 
 /* ===== VIDEO LAZY LOADING CONTAINERS ===== */
@@ -449,6 +450,9 @@ button:active {
     max-width: 300px;
     display: flex;
     flex-direction: column;
+    /* Optimizaciones para móvil */
+    -webkit-tap-highlight-color: transparent;
+    touch-action: manipulation;
 }
 
 .video-lazy-container:hover {
@@ -484,10 +488,33 @@ button:active {
     transform: translate(-50%, -50%);
     transition: transform 0.3s ease, opacity 0.3s ease;
     cursor: pointer;
+    padding: var(--spacing-sm);
+    min-width: 44px;
+    min-height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.1);
 }
 
 .video-play-button:hover {
     transform: translate(-50%, -50%) scale(1.1);
+    background: rgba(0, 0, 0, 0.2);
+}
+
+/* Mejores áreas de toque en móviles */
+@media (max-width: 767px) {
+    .video-play-button {
+        min-width: 56px;
+        min-height: 56px;
+        background: rgba(0, 0, 0, 0.2);
+    }
+    
+    .video-play-button svg {
+        width: 48px;
+        height: 48px;
+    }
 }
 
 .video-duration {
@@ -559,6 +586,11 @@ button:active {
 .video-info {
     padding: var(--spacing-md);
     text-align: left;
+    height: auto;
+    min-height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 .video-title {
@@ -568,6 +600,11 @@ button:active {
     color: var(--primary-color);
     margin-bottom: 8px;
     line-height: 1.3;
+    /* Una línea con ellipsis */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
 }
 
 .video-description {
@@ -576,6 +613,11 @@ button:active {
     color: rgba(144, 106, 61, 0.8);
     line-height: 1.5;
     margin: 0;
+    /* Una línea con ellipsis */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
 }
 
 /* ===== VIDEO ERROR STATES ===== */
@@ -617,39 +659,125 @@ button:active {
 }
 
 /* ===== RESPONSIVE VIDEO GRID ===== */
-@media (max-width: 480px) {
+
+/* Mobile Extra Small - Phones muy pequeños */
+@media (max-width: 374px) {
     .videos__grid {
         grid-template-columns: repeat(2, 1fr);
-        gap: var(--spacing-md);
+        gap: var(--spacing-sm);
+        padding: 0 var(--spacing-xs);
     }
     
     .video-lazy-container {
-        max-width: 180px;
+        max-width: 140px;
+        min-width: 120px;
+    }
+    
+    .video-info {
+        padding: var(--spacing-xs);
+        min-height: 60px;
+    }
+    
+    .video-title {
+        font-size: 0.9rem;
+        margin-bottom: 4px;
+    }
+    
+    .video-description {
+        font-size: 0.75rem;
+        line-height: 1.3;
     }
 }
 
-@media (min-width: 481px) and (max-width: 767px) {
+/* Mobile Small - Phones pequeños */
+@media (min-width: 375px) and (max-width: 439px) {
+    .videos__grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: var(--spacing-sm);
+    }
+    
+    .video-lazy-container {
+        max-width: 160px;
+        min-width: 140px;
+    }
+    
+    .video-info {
+        padding: var(--spacing-sm);
+        min-height: 65px;
+    }
+    
+    .video-title {
+        font-size: 1rem;
+    }
+    
+    .video-description {
+        font-size: 0.8rem;
+    }
+}
+
+/* Mobile Medium - Breakpoint hero del proyecto */
+@media (min-width: 440px) and (max-width: 767px) {
     .videos__grid {
         grid-template-columns: repeat(3, 1fr);
         gap: var(--spacing-md);
     }
     
     .video-lazy-container {
-        max-width: 200px;
+        max-width: 180px;
+        min-width: 160px;
+    }
+    
+    .video-info {
+        padding: var(--spacing-sm);
+        min-height: 70px;
+    }
+    
+    .video-title {
+        font-size: 1.1rem;
+    }
+    
+    .video-description {
+        font-size: 0.85rem;
     }
 }
 
-@media (min-width: 768px) and (max-width: 1023px) {
+/* Tablet - Alineado con breakpoint del proyecto */
+@media (min-width: 768px) and (max-width: 826px) {
+    .videos__grid {
+        grid-template-columns: repeat(4, 1fr);
+        gap: var(--spacing-md);
+    }
+    
+    .video-lazy-container {
+        max-width: 200px;
+    }
+    
+    .video-info {
+        min-height: 75px;
+    }
+    
+    .video-title {
+        font-size: 1.15rem;
+    }
+}
+
+/* Tablet Large - Breakpoint hero especial del proyecto */
+@media (min-width: 827px) and (max-width: 1023px) {
     .videos__grid {
         grid-template-columns: repeat(4, 1fr);
         gap: var(--spacing-lg);
     }
     
     .video-lazy-container {
-        max-width: 240px;
+        max-width: 220px;
+    }
+    
+    .video-info {
+        min-height: 80px;
     }
 }
 
+/* Desktop - Alineado con breakpoint del proyecto */
 @media (min-width: 1024px) and (max-width: 1199px) {
     .videos__grid {
         grid-template-columns: repeat(5, 1fr);
@@ -657,10 +785,19 @@ button:active {
     }
     
     .video-lazy-container {
-        max-width: 260px;
+        max-width: 240px;
+    }
+    
+    .video-info {
+        min-height: 85px;
+    }
+    
+    .video-title {
+        font-size: 1.2rem;
     }
 }
 
+/* Large Desktop - Alineado con breakpoint del proyecto */
 @media (min-width: 1200px) {
     .videos__grid {
         grid-template-columns: repeat(6, 1fr);
@@ -668,7 +805,86 @@ button:active {
     }
     
     .video-lazy-container {
-        max-width: 280px;
+        max-width: 260px;
+    }
+    
+    .video-info {
+        min-height: 90px;
+    }
+    
+    .video-title {
+        font-size: 1.25rem;
+    }
+}
+
+/* ===== OPTIMIZACIONES MÓVILES ADICIONALES ===== */
+@media (max-width: 767px) {
+    /* Mejor experiencia de scroll en móviles */
+    .videos__grid {
+        scroll-behavior: smooth;
+        -webkit-overflow-scrolling: touch;
+    }
+    
+    /* Evitar zoom accidental en doble tap */
+    .video-thumbnail,
+    .video-lazy-container {
+        touch-action: manipulation;
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        user-select: none;
+    }
+    
+    /* Mejor feedback visual en móviles */
+    .video-lazy-container:active {
+        transform: translateY(-2px);
+        transition: transform 0.1s ease;
+    }
+    
+    /* Ajustar altura mínima para móviles */
+    .video-info {
+        min-height: 70px;
+        padding: var(--spacing-sm);
+    }
+    
+    /* Ajustar duración del video para mejor legibilidad */
+    .video-duration {
+        font-size: 0.75rem;
+        padding: 3px 6px;
+        bottom: 8px;
+        right: 8px;
+    }
+}
+
+/* Optimizaciones específicas para orientación landscape en móviles */
+@media (max-width: 767px) and (orientation: landscape) {
+    .videos__grid {
+        grid-template-columns: repeat(4, 1fr);
+        gap: var(--spacing-sm);
+    }
+    
+    .video-lazy-container {
+        max-width: 160px;
+    }
+    
+    .video-info {
+        padding: var(--spacing-xs);
+        min-height: 55px;
+    }
+    
+    .video-title {
+        font-size: 0.9rem;
+    }
+    
+    .video-description {
+        font-size: 0.75rem;
+    }
+}
+
+/* Ajustes para dispositivos con notch */
+@media (max-width: 767px) and (orientation: portrait) {
+    .videos__container {
+        padding-left: max(var(--container-padding), env(safe-area-inset-left));
+        padding-right: max(var(--container-padding), env(safe-area-inset-right));
     }
 }
 
@@ -684,7 +900,7 @@ button:active {
 }
 
 .statistics__title {
-    font-family: var(--font-primary);
+    font-family: var(--font-cinzel);
     font-size: var(--fs-section-title);
     font-weight: 400;
     color: var(--primary-color);
@@ -721,7 +937,7 @@ button:active {
 }
 
 .contact__title {
-    font-family: var(--font-primary);
+    font-family: var(--font-cinzel);
     font-size: var(--fs-section-title);
     font-weight: 400;
     color: var(--primary-color);
@@ -1153,7 +1369,6 @@ button:active {
     :root {
         --fs-hero-name: 6rem;
         --fs-hero-title: 2rem;
-        --fs-section-title: 3.5rem;
         --container-padding: 4rem;
     }
     
