@@ -84,3 +84,11 @@ dreymar-portfolio/
 
 ---
 *Desarrollado como clon exacto del portafolio original de Dreymar*
+
+
+Aliases creados:
+git st → git status
+git co → git checkout
+git br → git branch
+git ci → git commit
+git lg → log visual con gráfico
