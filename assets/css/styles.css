@@ -1022,6 +1022,121 @@ button:active {
     font-style: italic;
 }
 
+/* ===== STATISTICS VIDEO IFRAME ===== */
+.statistics__video-container {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-bottom: 56.25%; /* Aspect ratio 16:9 (9/16 = 0.5625) */
+    height: 0;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(144, 106, 61, 0.15);
+    background: rgba(144, 106, 61, 0.05);
+}
+
+.statistics__iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 15px;
+}
+
+/* ===== RESPONSIVE STATISTICS VIDEO ===== */
+
+/* Mobile Extra Small */
+@media (max-width: 374px) {
+    .statistics__content {
+        max-width: 100%;
+        padding: 0 var(--spacing-xs);
+    }
+    
+    .statistics__video-container {
+        max-width: 100%;
+        border-radius: 10px;
+    }
+    
+    .statistics__iframe {
+        border-radius: 10px;
+    }
+}
+
+/* Mobile Small */
+@media (min-width: 375px) and (max-width: 439px) {
+    .statistics__content {
+        max-width: 100%;
+        padding: 0 var(--spacing-sm);
+    }
+    
+    .statistics__video-container {
+        max-width: 100%;
+        border-radius: 12px;
+    }
+    
+    .statistics__iframe {
+        border-radius: 12px;
+    }
+}
+
+/* Mobile Medium */
+@media (min-width: 440px) and (max-width: 767px) {
+    .statistics__content {
+        max-width: 500px;
+    }
+    
+    .statistics__video-container {
+        max-width: 480px;
+    }
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 826px) {
+    .statistics__content {
+        max-width: 650px;
+    }
+    
+    .statistics__video-container {
+        max-width: 600px;
+    }
+}
+
+/* Tablet Large */
+@media (min-width: 827px) and (max-width: 1023px) {
+    .statistics__content {
+        max-width: 700px;
+    }
+    
+    .statistics__video-container {
+        max-width: 650px;
+    }
+}
+
+/* Desktop */
+@media (min-width: 1024px) and (max-width: 1199px) {
+    .statistics__content {
+        max-width: 750px;
+    }
+    
+    .statistics__video-container {
+        max-width: 700px;
+    }
+}
+
+/* Large Desktop */
+@media (min-width: 1200px) {
+    .statistics__content {
+        max-width: 800px;
+    }
+    
+    .statistics__video-container {
+        max-width: 800px;
+    }
+}
+
 /* ===== CONTACT SECTION ===== */
 .contact {
     padding: var(--spacing-xxl) var(--container-padding);
