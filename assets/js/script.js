@@ -65,7 +65,15 @@ function initSocialLinksTracking() {
     
     socialLinks.forEach(link => {
         link.addEventListener('click', function(e) {
-            const platform = this.href.includes('instagram') ? 'Instagram' : 'WhatsApp';
+            let platform = 'Unknown';
+            if (this.href.includes('instagram')) {
+                platform = 'Instagram';
+            } else if (this.href.includes('wa.link') || this.href.includes('whatsapp')) {
+                platform = 'WhatsApp';
+            } else if (this.href.includes('youtube.com')) {
+                platform = 'YouTube';
+            }
+            
             console.log(`Social link clicked: ${platform}`);
             
             // Add a small animation feedback
