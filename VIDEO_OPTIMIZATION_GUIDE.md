@@ -189,4 +189,4 @@ assets/
 ---
 
 ## Ejecutar script para crear los videos
-./assets/scripts/optimize-videos.sh ./assets/videos/*
+./assets/scripts/optimize-videos.sh ./assets/videos/convert/*
